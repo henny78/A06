@@ -1,20 +1,70 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, header, footer, main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
 }
 
+/* Header styling */
 header {
     text-align: center;
-    margin-bottom: 30px;
-}
-
-.speaker {
+    background-color: #e0e0e0;
+    padding: 20px 0;
     margin-bottom: 20px;
 }
 
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Speaker sections */
+.speaker {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.speaker img {
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Footer styling */
 footer {
     text-align: center;
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: gray;
+    padding: 10px 0;
+    background-color: #e0e0e0;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+/* Links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: underline;
 }
